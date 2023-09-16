@@ -21,6 +21,7 @@ SECTIONS
 	.data : {
 		_S_DATA = . ;
 		*(.vectors)
+		*(.data)
 		. = ALIGN(4) ;
 		_E_DATA = . ;
 		
